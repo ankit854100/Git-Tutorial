@@ -3,6 +3,8 @@ This is the first write operation on git folder.
 steps to add files to git:
 
 1.git init : For initilisation of Git.
-2.git status: This command will show us which files are added to staging(intermediate area between git and original folder i.e. file are added to but not committed) are and which arn't.
-3.git commit -m "commit message": To commit the files in git.		
-4.git log: To see commited files with the name of person who committed it and the time at which the files are committed.			
+2.git add filename: Add file to git.
+3.git status: This command will show us which files are added to staging(intermediate area between git and original folder i.e. file are added to but not committed) are and which arn't.
+4.git commit -m "commit message": To commit the files in git.		
+5.git log: To see commited files with the name of person who committed it and the time at which the files are committed.
+6.git add .: Add all the files to in the present working directory.			
