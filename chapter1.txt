@@ -7,4 +7,6 @@ steps to add files to git:
 3.git status: This command will show us which files are added to staging(intermediate area between git and original folder i.e. file are added to but not committed) are and which arn't.
 4.git commit -m "commit message": To commit the files in git.		
 5.git log: To see commited files with the name of person who committed it and the time at which the files are committed.
-6.git add .: Add all the files to in the present working directory.			
+6.git add .: Add all the files to in the present working directory.	
+7.git diff: To see the difference between content of file between last committed state to current state.
+8.git checkout filename: Rollback the content of file from current state to last committed state.		
