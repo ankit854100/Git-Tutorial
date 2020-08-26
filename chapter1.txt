@@ -10,3 +10,4 @@ steps to add files to git:
 6.git add .: Add all the files to in the present working directory.	
 7.git diff: To see the difference between content of file between last committed state to current state.
 8.git checkout filename: Rollback the content of file from current state to last committed state.		
+9.git rm --cached -r .:Rollback all the files that are added into staging area.
