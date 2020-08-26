@@ -11,3 +11,9 @@ steps to add files to git:
 7.git diff: To see the difference between content of file between last committed state to current state.
 8.git checkout filename: Rollback the content of file from current state to last committed state.		
 9.git rm --cached -r .:Rollback all the files that are added into staging area.
+10.git clone url:Cloning a repository from remote repository to current working directory.
+11.git branch branch-name:Create a new branch.
+12.git branch:Shows branch names and also which branch you are currently in.
+13.git checkout branch-name: Jumps from current branch to the branch whose name is specified.
+14.git merge branch-name: Merge the branch whose name is specified with the master branch.
+15:q!: To save and quit merging.
